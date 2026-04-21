@@ -127,7 +127,7 @@ export function HeroSection() {
           transition={{ delay: 0.8 }}
           className="mt-6 sm:mt-8 max-w-2xl text-base sm:text-lg md:text-xl text-sunday-text/75 leading-relaxed"
         >
-          Content, branding, and culture — built for brands that want more than
+          Content, branding, and culture, built for brands that want more than
           visibility. We make stories, experiences, and visuals that actually
           stick.
         </motion.p>

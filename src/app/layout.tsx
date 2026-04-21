@@ -16,7 +16,7 @@ const raleway = Raleway({
 
 export const metadata: Metadata = {
   title: {
-    default: `${siteMetadata.name} — ${siteMetadata.tagline}`,
+    default: `${siteMetadata.name} · ${siteMetadata.tagline}`,
     template: `%s · ${siteMetadata.name}`,
   },
   description: siteMetadata.description,

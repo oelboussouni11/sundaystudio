@@ -2,7 +2,7 @@ export const siteMetadata = {
   name: "Sunday Studio®",
   tagline: "We don't just create content. We build presence.",
   description:
-    "Sunday Studio® is a creative agency at the intersection of content, branding, and culture — focused on lifestyle, sport, and community.",
+    "Sunday Studio® is a creative agency at the intersection of content, branding, and culture, focused on lifestyle, sport, and community.",
   url: "https://sundaystudio.co",
 };
 

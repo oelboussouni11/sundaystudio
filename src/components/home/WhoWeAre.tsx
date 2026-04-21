@@ -33,7 +33,7 @@ export function WhoWeAre() {
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
           >
-            We operate at the intersection of content, branding, and culture —
+            We operate at the intersection of content, branding, and culture,
             with a strong focus on lifestyle, sport, and community.
           </motion.p>
           <motion.div

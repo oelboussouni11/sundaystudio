@@ -6,7 +6,7 @@ import { Squiggle } from "@/components/decorative/Doodle";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Scan, tap, text — whatever works. Sunday Studio is one message away.",
+    "Scan, tap, text. Whatever works. Sunday Studio is one message away.",
 };
 
 export default function ContactPage() {
@@ -37,7 +37,7 @@ export default function ContactPage() {
         </h1>
         <p className="mt-6 md:mt-8 max-w-2xl text-base sm:text-lg md:text-xl text-sunday-text/75 leading-relaxed">
           No forms. No chatbots. No &quot;your ticket has been received&quot;.
-          Pick a channel below — scan the code with your camera, or just tap
+          Pick a channel below. Scan the code with your camera, or just tap
           the card. We answer fast.
         </p>
 

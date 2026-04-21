@@ -42,7 +42,7 @@ export function StorySection() {
             transition={{ delay: 0.2 }}
           >
             We&apos;re not a production house. We&apos;re not a marketing
-            agency. We&apos;re a hybrid that understands both worlds — and
+            agency. We&apos;re a hybrid that understands both worlds, and
             builds brands people actually remember.
           </motion.p>
         </div>

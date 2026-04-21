@@ -33,7 +33,7 @@ export function Logo({ className, href = "/", size = "md" }: LogoProps) {
   return (
     <Link
       href={href}
-      aria-label="Sunday Studio — home"
+      aria-label="Sunday Studio home"
       className="inline-flex items-center hover:opacity-80 transition-opacity"
     >
       {img}

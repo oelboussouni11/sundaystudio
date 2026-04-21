@@ -34,7 +34,7 @@ export function ServicesHero() {
           transition={{ delay: 0.15 }}
           className="mt-8 max-w-2xl text-lg md:text-xl text-sunday-text/75 leading-relaxed"
         >
-          Eight disciplines, working as one studio. Pick what you need — or let
+          Eight disciplines, working as one studio. Pick what you need, or let
           us build the whole universe.
         </motion.p>
       </div>

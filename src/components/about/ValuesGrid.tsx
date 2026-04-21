@@ -26,7 +26,7 @@ const values: Value[] = [
     icon: Heart,
     title: "Community first",
     description:
-      "We build brands that people want to be part of — not just buy from.",
+      "We build brands that people want to be part of, not just buy from.",
   },
   {
     icon: Flame,

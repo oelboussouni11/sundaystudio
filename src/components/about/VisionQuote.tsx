@@ -22,7 +22,7 @@ export function VisionQuote() {
           className="font-[family-name:var(--font-display)] font-black text-[clamp(2rem,6vw,5rem)] leading-[1] tracking-tight"
         >
           To build brands that people don&apos;t just{" "}
-          <span className="text-sunday-text-muted">see</span> —<br />
+          <span className="text-sunday-text-muted">see</span>,<br />
           but <span className="text-sunday-red">feel</span>,{" "}
           <span className="text-sunday-red">wear</span>,{" "}
           <span className="text-sunday-red">follow</span>, and{" "}
