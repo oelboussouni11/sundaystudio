@@ -32,8 +32,8 @@ export function StorySection() {
             transition={{ delay: 0.1 }}
           >
             Our philosophy is simple: the best brands live at the intersection.
-            We sit where content, branding, and culture meet — with deep roots
-            in lifestyle, sport, and community.
+            We sit where content, branding, and culture meet with deep roots in
+            lifestyle, sport, and community.
           </motion.p>
           <motion.p
             initial={{ opacity: 0, y: 20 }}

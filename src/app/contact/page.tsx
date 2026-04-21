@@ -28,7 +28,10 @@ export default function ContactPage() {
           Scan.{" "}
           <span className="relative inline-block text-sunday-red">
             Tap
-            <Squiggle className="absolute -bottom-3 left-0 w-full" />
+            <Squiggle
+              className="absolute -bottom-1 sm:-bottom-2 left-0 w-full h-2 sm:h-3"
+              strokeWidth={6}
+            />
           </span>
           . Text us.
         </h1>

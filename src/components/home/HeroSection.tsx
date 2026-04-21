@@ -94,7 +94,10 @@ export function HeroSection() {
           <ScatterWord progress={scrollYProgress} index={3} entryDelay={0.32}>
             <span className="relative inline-block">
               <span className="text-sunday-red">create</span>
-              <Squiggle className="absolute -bottom-3 left-0 w-full" />
+              <Squiggle
+                className="absolute -bottom-1 sm:-bottom-2 left-0 w-full h-2 sm:h-3"
+                strokeWidth={6}
+              />
             </span>
           </ScatterWord>
           <ScatterWord progress={scrollYProgress} index={4} entryDelay={0.4}>
@@ -110,7 +113,10 @@ export function HeroSection() {
           <ScatterWord progress={scrollYProgress} index={7} entryDelay={0.64}>
             <span className="relative inline-block">
               <span className="text-sunday-red">presence</span>.
-              <Squiggle className="absolute -bottom-3 left-0 w-[85%]" />
+              <Squiggle
+                className="absolute -bottom-1 sm:-bottom-2 left-0 w-[85%] h-2 sm:h-3"
+                strokeWidth={6}
+              />
             </span>
           </ScatterWord>
         </h1>

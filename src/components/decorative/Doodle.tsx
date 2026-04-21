@@ -1,16 +1,26 @@
 import { cn } from "@/lib/utils";
 
-export function Squiggle({ className }: { className?: string }) {
+export function Squiggle({
+  className,
+  strokeWidth = 4,
+}: {
+  className?: string;
+  strokeWidth?: number;
+}) {
   return (
     <svg
       viewBox="0 0 200 20"
       xmlns="http://www.w3.org/2000/svg"
+      preserveAspectRatio="none"
       aria-hidden
       className={cn("stroke-sunday-red fill-none", className)}
-      strokeWidth={4}
+      strokeWidth={strokeWidth}
       strokeLinecap="round"
     >
-      <path d="M2 12 Q 25 2, 50 12 T 100 12 T 150 12 T 198 12" />
+      <path
+        d="M2 12 Q 25 2, 50 12 T 100 12 T 150 12 T 198 12"
+        vectorEffect="non-scaling-stroke"
+      />
     </svg>
   );
 }

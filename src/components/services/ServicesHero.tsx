@@ -22,7 +22,10 @@ export function ServicesHero() {
         >
           What we <span className="relative inline-block text-sunday-red">
             do
-            <Squiggle className="absolute -bottom-3 left-0 w-full" />
+            <Squiggle
+              className="absolute -bottom-1 sm:-bottom-2 left-0 w-full h-2 sm:h-3"
+              strokeWidth={6}
+            />
           </span>.
         </motion.h1>
         <motion.p
