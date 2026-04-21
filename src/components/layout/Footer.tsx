@@ -19,16 +19,21 @@ export function Footer() {
               Navigate
             </h3>
             <ul className="space-y-2">
-              {navLinks.map((link) => (
-                <li key={link.href}>
-                  <Link
-                    href={link.href}
-                    className="text-sm text-sunday-text/80 hover:text-sunday-red transition"
-                  >
-                    {link.label}
-                  </Link>
-                </li>
-              ))}
+              {navLinks.map((link) => {
+                const external = link.href.startsWith("http");
+                return (
+                  <li key={link.href}>
+                    <Link
+                      href={link.href}
+                      target={external ? "_blank" : undefined}
+                      rel={external ? "noopener noreferrer" : undefined}
+                      className="text-sm text-sunday-text/80 hover:text-sunday-red transition"
+                    >
+                      {link.label}
+                    </Link>
+                  </li>
+                );
+              })}
             </ul>
           </div>
 

@@ -59,11 +59,14 @@ export function Navbar() {
         <nav className="hidden md:flex items-center gap-1">
           {navLinks.map((link) => {
             const active = isActivePath(pathname, link.href);
+            const external = link.href.startsWith("http");
             return (
               <Link
                 key={link.href}
                 href={link.href}
                 aria-current={active ? "page" : undefined}
+                target={external ? "_blank" : undefined}
+                rel={external ? "noopener noreferrer" : undefined}
                 className={cn(
                   "relative px-4 py-2 rounded-full text-sm font-medium transition",
                   active
@@ -142,6 +145,7 @@ export function Navbar() {
             <nav className="flex flex-col">
               {navLinks.map((link, i) => {
                 const active = isActivePath(pathname, link.href);
+                const external = link.href.startsWith("http");
                 return (
                   <motion.div
                     key={link.href}
@@ -158,6 +162,8 @@ export function Navbar() {
                       href={link.href}
                       onClick={() => setOpen(false)}
                       aria-current={active ? "page" : undefined}
+                      target={external ? "_blank" : undefined}
+                      rel={external ? "noopener noreferrer" : undefined}
                       className="group flex items-baseline gap-4 py-5"
                     >
                       <span className="text-xs uppercase tracking-[0.25em] font-[family-name:var(--font-accent)] text-sunday-text-muted w-6 shrink-0">
@@ -165,7 +171,7 @@ export function Navbar() {
                       </span>
                       <span
                         className={cn(
-                          "relative font-[family-name:var(--font-display)] font-black text-4xl sm:text-5xl leading-none tracking-tight transition-colors",
+                          "relative font-[family-name:var(--font-display)] font-black uppercase text-4xl sm:text-5xl leading-none tracking-tight transition-colors",
                           active
                             ? "text-sunday-red"
                             : "text-sunday-text group-hover:text-sunday-red"

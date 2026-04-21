@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Epilogue } from "next/font/google";
+import { Raleway } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
@@ -9,10 +9,9 @@ import { CustomCursor } from "@/components/effects/CustomCursor";
 import { SplashScreen } from "@/components/effects/SplashScreen";
 import { siteMetadata } from "@/lib/constants";
 
-const epilogue = Epilogue({
-  variable: "--font-epilogue",
+const raleway = Raleway({
+  variable: "--font-raleway",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {
@@ -31,7 +30,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${epilogue.variable} h-full`}
+      className={`${raleway.variable} h-full`}
       suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col bg-sunday-dark text-sunday-text">

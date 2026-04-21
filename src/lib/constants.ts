@@ -11,6 +11,7 @@ export const navLinks = [
   { label: "Services", href: "/services" },
   { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
+  { label: "Sneak Peek", href: "/sneak-peek" },
 ] as const;
 
 import type { LucideIcon } from "lucide-react";
@@ -174,8 +175,6 @@ export const whatWeCanDo = [
 ];
 
 export const socials = [
-  { label: "Instagram", href: "https://instagram.com" },
-  { label: "TikTok", href: "https://tiktok.com" },
-  { label: "Behance", href: "https://behance.net" },
-  { label: "LinkedIn", href: "https://linkedin.com" },
+  { label: "Instagram", href: "https://www.instagram.com/almostsundaystudio/" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/company/almostsundaystudio/" },
 ];

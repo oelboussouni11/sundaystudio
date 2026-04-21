@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import QRCode from "react-qr-code";
-import { MessageCircle, Mail, Music2, CalendarDays } from "lucide-react";
+import { MessageCircle, Mail } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 type IconType = (props: { className?: string }) => React.ReactElement;
@@ -60,48 +60,32 @@ type ContactChannel = {
 const channels: ContactChannel[] = [
   {
     label: "WhatsApp",
-    handle: "+212 6 00 00 00 00",
-    url: "https://wa.me/212600000000",
+    handle: "+212 6 61 32 27 43",
+    url: "https://wa.me/212661322743",
     icon: LucideWrap(MessageCircle),
     cta: "Tap to chat",
     rotate: -2,
   },
   {
     label: "Instagram",
-    handle: "@sundaystudio",
-    url: "https://instagram.com/sundaystudio",
+    handle: "@almostsundaystudio",
+    url: "https://www.instagram.com/almostsundaystudio/",
     icon: InstagramIcon,
     cta: "See the feed",
     rotate: 1.5,
   },
   {
     label: "Email",
-    handle: "hello@sundaystudio.co",
-    url: "mailto:hello@sundaystudio.co",
+    handle: "obensouda@sundaystudio.ma",
+    url: "mailto:obensouda@sundaystudio.ma",
     icon: LucideWrap(Mail),
     cta: "Old school, still works",
     rotate: -1.5,
   },
   {
-    label: "Book a call",
-    handle: "20 min discovery",
-    url: "https://cal.com/sundaystudio",
-    icon: LucideWrap(CalendarDays),
-    cta: "Pick a Sunday slot",
-    rotate: 2,
-  },
-  {
-    label: "TikTok",
-    handle: "@sundaystudio",
-    url: "https://tiktok.com/@sundaystudio",
-    icon: LucideWrap(Music2),
-    cta: "Behind the scenes",
-    rotate: 1,
-  },
-  {
     label: "LinkedIn",
-    handle: "Sunday Studio",
-    url: "https://linkedin.com/company/sunday-studio",
+    handle: "Almost Sunday Studio",
+    url: "https://www.linkedin.com/company/almostsundaystudio/",
     icon: LinkedinIcon,
     cta: "The boring one",
     rotate: -1,

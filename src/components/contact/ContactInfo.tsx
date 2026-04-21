@@ -2,8 +2,8 @@ import { Mail, Phone, MapPin } from "lucide-react";
 import { socials } from "@/lib/constants";
 
 const items = [
-  { icon: Mail, label: "Email", value: "hello@sundaystudio.co" },
-  { icon: Phone, label: "Phone", value: "+212 6 00 00 00 00" },
+  { icon: Mail, label: "Email", value: "obensouda@sundaystudio.ma" },
+  { icon: Phone, label: "Phone", value: "+212 6 61 32 27 43" },
   { icon: MapPin, label: "Location", value: "Casablanca · Worldwide" },
 ];
 

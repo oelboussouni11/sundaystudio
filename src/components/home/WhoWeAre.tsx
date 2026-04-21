@@ -53,6 +53,15 @@ export function WhoWeAre() {
               A hybrid that gets both worlds.
             </span>
           </motion.div>
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.3 }}
+            className="pt-2 font-[family-name:var(--font-accent)] italic text-base text-sunday-text-dark/60"
+          >
+            (it&apos;s not that deep.)
+          </motion.p>
         </div>
       </div>
     </Section>

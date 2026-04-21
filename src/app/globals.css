@@ -22,6 +22,28 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Ezra";
+  src: url("/fonts/Ezra-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Ezra";
+  src: url("/fonts/Ezra-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Ezra";
+  src: url("/fonts/Ezra-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 @theme {
   --color-sunday-red: #cc3e3e;
   --color-sunday-red-light: #e85454;
@@ -39,9 +61,9 @@
   --color-sunday-line-strong: var(--sd-line-strong);
   --color-sunday-chip: var(--sd-chip);
 
-  --font-display: "Switzer", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-accent: var(--font-epilogue), "Helvetica Neue", Helvetica, Arial,
+  --font-display: "Ezra", "Switzer", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-sans: var(--font-raleway), "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-accent: var(--font-raleway), "Helvetica Neue", Helvetica, Arial,
     sans-serif;
 }
 
@@ -81,6 +103,15 @@ body {
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
 }
 
 ::selection {
