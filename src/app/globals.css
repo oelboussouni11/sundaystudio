@@ -61,7 +61,7 @@
   --color-sunday-line-strong: var(--sd-line-strong);
   --color-sunday-chip: var(--sd-chip);
 
-  --font-display: "Ezra", "Switzer", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-display: "Switzer", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-sans: var(--font-raleway), "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-accent: var(--font-raleway), "Helvetica Neue", Helvetica, Arial,
     sans-serif;

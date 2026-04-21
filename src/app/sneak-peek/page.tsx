@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-const PORTFOLIO_URL = "https://omar-bensouda-portfolio.vercel.app/";
+const PORTFOLIO_URL = "https://www.omateur.com/";
 
 export const metadata: Metadata = {
   title: "Sneak Peek",
